@@ -23,7 +23,7 @@
     path: /var/www/html
     owner: apache
     group: apache
-    mode: 0755
+    mode: 0775
 
 - name: Copy files to remote host
   copy:
@@ -31,4 +31,4 @@
     dest: /var/www/html
     owner: apache
     group: apache
-    mode: 0755
+    mode: 0775
